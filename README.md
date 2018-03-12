@@ -33,7 +33,7 @@ json-flat-select ./**/*.json pathToRowMapFile '\t' > data.tsv
 var jsonFlatSelect = require('json-flat-select')
 var rowMap = require('PUT_PATH_TO_ROW_MAP_HERE.json')
 
-var csvTable = jsonSelectToCsv('*.json', rowMap)
+var csvTable = jsonFlatSelect('*.json', rowMap)
 ```
 
 
