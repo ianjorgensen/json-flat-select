@@ -1,0 +1,18 @@
+{
+  "type": "person",
+  "info": {
+    "name": "leon",
+    "surname": "jorgensen",
+    "dob": {
+      "month": "june",
+      "year": 2015,
+      "day": 6
+    },
+    "countries": [
+      {
+        "country": "denmark",
+        "city": "copenhagen"
+      }
+    ]
+  }
+}

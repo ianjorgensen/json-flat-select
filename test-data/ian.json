@@ -1,0 +1,26 @@
+{
+  "type": "person",
+  "info": {
+    "name": "ian",
+    "surname": "jorgensen",
+    "dob": {
+      "month": "september",
+      "year": 1984,
+      "day": 12
+    },
+    "countries": [
+      {
+        "country": "argentina",
+        "city": "buenos aires"
+      },
+      {
+        "country": "uk",
+        "city": "london"
+      },
+      {
+        "country": "denmark",
+        "city": "copenhagen"
+      }
+    ]
+  }
+}

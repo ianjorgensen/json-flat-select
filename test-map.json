@@ -1,0 +1,10 @@
+{
+  "type" : "type",
+  "name": "info.name",
+  "surname": "info.surname",
+  "month": "info.dob.month",
+  "missing": "info.address.street",
+  "firstCountry": "info.countries[0].country",
+  "firstCity": ["info.countries[0].country.city", "info.countries[0].city"],
+  "firstCityMissing": ["info.countries[0].country.city", "info.countries[0].none"]
+}

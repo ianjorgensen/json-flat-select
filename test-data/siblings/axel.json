@@ -1,0 +1,26 @@
+{
+  "type": "person",
+  "info": {
+    "name": "axel",
+    "surname": "jorgensen",
+    "dob": {
+      "month": "august",
+      "year": 1986,
+      "day": 22
+    },
+    "countries": [
+      {
+        "country": "argentina",
+        "city": "buenos aires"
+      },
+      {
+        "country": "mexico",
+        "city": "ciudad de mexico"
+      },
+      {
+        "country": "denmark",
+        "city": "copenhagen"
+      }
+    ]
+  }
+}

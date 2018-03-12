@@ -1,0 +1,26 @@
+{
+  "type": "person",
+  "info": {
+    "name": "ewa",
+    "surname": "paduch",
+    "dob": {
+      "month": "september",
+      "year": 1979,
+      "day": 29
+    },
+    "countries": [
+      {
+        "country": "poland",
+        "city": "swidnica"
+      },
+      {
+        "country": "uk",
+        "city": "london"
+      },
+      {
+        "country": "denmark",
+        "city": "copenhagen"
+      }
+    ]
+  }
+}

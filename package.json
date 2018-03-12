@@ -1,0 +1,20 @@
+{
+  "name": "json-flat-select",
+  "version": "1.0.0",
+  "description": "Map deep json structures selectively to csv.",
+  "main": "index.js",
+  "scripts": {
+    "test-module": "node test.js",
+    "test": "node index.js test-map.json './test-data/**/*.json'"
+  },
+  "author": "ian@linehq.com",
+  "license": "MIT",
+  "bin": {
+    "json-select-to-csv": "./index.js"
+  },
+  "dependencies": {
+    "argv": "0.0.2",
+    "folder-walker": "^3.1.0",
+    "glob": "^7.1.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "person",
+  "info": {
+    "name": "joe",
+    "surname": "doe",
+    "dob": {
+      "month": "august",
+      "year": 1006,
+      "day": 22
+    },
+    "countries": [
+      {
+        "country": "usa",
+        "city": "ny"
+      }
+    ]
+  }
+}
