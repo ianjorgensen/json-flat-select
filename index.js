@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-var glob = require("glob")
 var fs = require('fs')
 var os = require('os')
+var glob = require("glob")
 var pathTool = require('path')
 
 /*
