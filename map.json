@@ -1,0 +1,18 @@
+{
+  "testType": "frame.testData.testId",
+  "species": "frame.testData.species",
+  "brickType": "frame.brickType.key",
+  "frameId": "frame.frameId",
+  "lane0Lanetype": "frame.contents[0].contentTestResult.resultTestType",
+  "lane0Indication": "frame.contents[0].contentTestResult.indication",
+  "lane0Value": "frame.contents[0].contentTestResult.value",
+  "lane0Outcome": "frame.contents[0].contentTestResult.outcome.key",
+  "lane1Lanetype": "frame.contents[1].contentTestResult.resultTestType",
+  "lane1Indication": "frame.contents[1].contentTestResult.indication",
+  "lane1Value": "frame.contents[0].contentTestResult.value",
+  "lane1Outcome": "frame.contents[0].contentTestResult.outcome.key",
+  "lane2Lanetype": "frame.contents[2].contentTestResult.resultTestType",
+  "lane2Indication": "frame.contents[2].contentTestResult.indication",
+  "lane2Value": "frame.contents[0].contentTestResult.value",
+  "lane2Outcome": "frame.contents[0].contentTestResult.outcome.key"
+}

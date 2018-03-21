@@ -3,6 +3,8 @@
 var glob = require("glob")
 var fs = require('fs')
 var os = require('os')
+var pathTool = require('path')
+
 /*
 json-flat-select *.json pathToRowMapFile
 
@@ -20,11 +22,16 @@ function searchAndSelect (map, path, cb) {
 
     for (var i in files) {
       var data = fs.readFileSync(files[i], 'utf8')
-      var obj = JSON.parse(data)
+      var obj = {}
 
-      selections.push(select(map, obj))
+      try {
+         obj = JSON.parse(data)
+      } catch(e) {}
+
+      var _select = select(map, obj)
+      _select.file = pathTool.join(process.cwd(),files[i].toString())
+      selections.push(_select)
     }
-
     cb(null, selections)
   })
 }
